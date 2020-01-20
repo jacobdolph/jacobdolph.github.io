@@ -5,69 +5,60 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Jacob Dolph</title>
-
-  <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <script src="https://kit.fontawesome.com/e6646741c0.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
   <div class="navbar-fixed">
     <nav class="transparent z-depth-0" role="navigation">
-      <div class="nav-wrapper container">
+      <div class="container">
         <a id="logo-container" href="#" class="brand-logo"></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#">Navbar Link</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
         </ul>
 
-        <ul id="nav-mobile" class="sidenav">
-          <li><a href="#">Navbar Link</a></li>
+        <ul id="nav-mobile" class="sidenav orange accent-4">
+          <li><a href="#" class="teal-text text-lighten-4">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
         </ul>
         <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       </div>
     </nav>
   </div>
-
-  <div class="col s12 m12" style="margin-bottom: 25rem; margin-top: 15rem;">
+  <div class="col s12 m12 fade" style="margin-bottom: 25rem; margin-top: 15rem;">
     <div class="section no-pad-bot">
-      <div class="container">
+      <div class="container" id="fade-in">
         <div class="row"></div>
-
-
         <h1 class="header center orange-text text-accent-4">Jacob Dolph</h1>
+        <hr>
         <div class="row center">
           <h5 class="header col s12 teal-text text-lighten-4">Web Developer</h5>
         </div>
-
-
-
       </div>
     </div>
-
   </div>
-  <!-- 
-  <div class="container">
-    <div class="section">
 
-      <div class="parallax">
-        <img src="" alt="">
-      </div>
-
-    </div>
-  </div> -->
-
-
-  <div id="about-me" class="col s12">
-    <div class="card-panel grey lighten-5 z-depth-1">
+  <div id="about-me" class="col s12 fade" style="margin-bottom: 20rem;">
+    <h1 class="center orange-text text-accent-4">About</h1>
+    <hr>
+    <div class="card-panel teal lighten-5 z-depth-1">
       <div class="row valign-wrapper">
         <div class="col s12 m2">
-          <img src="assets/images/jacob-1.jpg" alt="" class="circle responsive-img">
-          <!-- notice the "circle" class -->
+          <img src="assets/images/jacob-1.jpg" alt="" class="circle responsive-img z-depth-3">
+
         </div>
         <div class="col s12 m10">
           <span class="black-text">
-            This is a square image. Add the "circle" class to it to make it appear circular.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eius, corporis similique iste repudiandae
+            aliquid veritatis dolore earum deleniti expedita. Inventore voluptas placeat similique est illo
+            necessitatibus fugiat tempore cumque!
           </span>
         </div>
       </div>
@@ -75,80 +66,57 @@
   </div>
 
   <div class="container">
-    <div class="section">
-
+    <div class="section" style="padding-bottom:25rem;">
+      <h1 class="center orange-text text-accent-4 fade">Portfolio</h1>
+      <hr>
       <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id
-            nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies
-            eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et
-            pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed.
-            Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam
-            eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-            posuere cubilia Curae;</p>
+        <div class="col s12 m6 l6 fade" style="width: 20rem;">
+          <img src="assets/images/coffee-small.jpg" alt="my coffee finder image" class="responsive-img z-depth-3">
+          <a class="waves-effect waves-light btn teal lighten-5 black-text" style="width: 100%;position: relative;">My
+            Coffee
+            Finder</a>
+        </div>
+
+        <div class="col s12 m6 l6 fade" style="width: 20rem;">
+          <img src="assets/images/snow-small.JPG" alt="my coffee finder image" class="responsive-img z-depth-3">
+          <a class="waves-effect waves-light btn teal lighten-5 black-text"
+            style="width: 100%;position: relative;">Weather
+            Dashboard</a>
         </div>
       </div>
-
     </div>
   </div>
 
 
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
-  </div>
 
-  <footer class="page-footer teal">
+  <footer class="page-footer orange accent-4">
     <div class="container">
       <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our
-            full time job. Any amount would help support and continue development on this project and is greatly
-            appreciated.</p>
-
-
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
+        <div class="col l8 s12">
           <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
+          <div class="col l9 s12" style="font-size: 3rem;">
+            <a class="white-text" href="#!"><i class="fab fa-github"> </i></a>
+            <a class="white-text" href="#!"><i class="fab fa-facebook"></i></a>
+            <a class="white-text" href="#!"><i class="fab fa-instagram"></i></a>
+            <a class="white-text" href="#!"><i class="fab fa-linkedin"></i></a>
+            <a class="white-text" href="#!"><i class="fab fa-twitter-square"></i></a>
+          </div>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
-      <div class="container">
-        Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-      </div>
+
     </div>
-  </footer> -->
+    </div>
+  </footer>
 
 
-  <!--  Scripts-->
+
+
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="assets/javascript/materialize.js"></script>
   <script src="assets/javascript/init.js"></script>
+  <script src="assets/javascript/script.js"></script>
+  <script src="assets/javascript/materialize.js"></script>
 
 </body>
 

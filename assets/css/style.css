@@ -7,7 +7,12 @@
  */
 body{
    background-image: url(../images/340452.png);
+  
    background-attachment: fixed;
+   
+}
+.contact {
+    color: white;
 }
 nav ul a,
 nav .brand-logo {
@@ -19,7 +24,7 @@ p {
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+  color: orangered;
 }
 
 .parallax-container {
