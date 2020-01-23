@@ -18,3 +18,34 @@ $(window).on("load", function () {
 });
 
 $("#fade-in").hide().fadeIn(3000);
+
+$(".button-1").click(function () {
+    document.getElementById('home').scrollIntoView({
+        block: "center",
+        behavior: "smooth"
+    })
+})
+$(".button-2").click(function () {
+    document.getElementById('about-me').scrollIntoView({
+        block: "center",
+        behavior: "smooth"
+    })
+})
+$(".button-3").click(function () {
+    document.getElementById('portfolio').scrollIntoView({
+        block: "center",
+        behavior: "smooth"
+    })
+})
+$(".button-4").click(function () {
+    document.getElementById('contact').scrollIntoView({
+        block: "center",
+        behavior: "smooth"
+    })
+})
+$(".button-5").click(function () {
+    document.getElementById('tech').scrollIntoView({
+        block: "center",
+        behavior: "smooth"
+    })
+})

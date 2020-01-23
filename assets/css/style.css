@@ -6,10 +6,41 @@
  * Made By MaterializeCSS.com
  */
 body{
-   background-image: url(../images/340452.png);
-  
+   /* background-image: url(../images/340452.png); */
+  background-color: dimgray;
    background-attachment: fixed;
    
+}
+li{
+    display: inline;
+    padding: 0 2rem;
+    text-align: center;
+}
+#contact{
+  margin-bottom: 10rem;
+}
+/* .nav-section{
+padding: 0rem 25%;
+} */
+.navi-butons{
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.technologies{
+    margin-bottom: 7rem;
+}
+.first-section{
+    margin-bottom: 10rem; margin-top: 15rem;
+}
+.fixed-footer{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  
+  color: white;
+  text-align: center;
 }
 .contact {
     color: white;
@@ -26,7 +57,10 @@ p {
 .sidenav-trigger {
   color: orangered;
 }
+.portfolio-box{
 
+    width: 20rem;
+}
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -52,6 +86,12 @@ p {
         margin-right: 10rem;
     }
 @media only screen and (max-width : 992px) {
+    hr{
+        width: 90%;
+    }
+    .first-section{
+      margin-top: 4rem;
+    }
     #about-me {
         margin-left: 0rem;
         margin-right: 0rem;
@@ -63,15 +103,23 @@ p {
   #index-banner .section {
     top: 10%;
   }
+  .first-section{
+    margin-bottom: 10rem; margin-top: 2rem;
+  }
 }
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
   }
+  .first-section{
+    margin-bottom: 10rem; margin-top: 15rem;
+  }
 }
 @media only screen and (max-width : 500px){
-    
+    .first-section{
+        margin-bottom: 10rem; margin-top: 10rem;
+      }
 }
 .icon-block {
   padding: 0 15px;

@@ -9,104 +9,158 @@
   <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <script src="https://kit.fontawesome.com/e6646741c0.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
-  <div class="navbar-fixed">
-    <nav class="transparent z-depth-0" role="navigation">
-      <div class="container">
-        <a id="logo-container" href="#" class="brand-logo"></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Portfolio</a></li>
-        </ul>
 
-        <ul id="nav-mobile" class="sidenav orange accent-4">
-          <li><a href="#" class="teal-text text-lighten-4">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Portfolio</a></li>
+  <div class="navbar-fixed orange accent-4 hide-on-med-and-down">
+    <nav class=" orange accent-4 nav-section">
+
+      <div class="col m12 l12">
+        <ul class=" hide-on-med-and-down brand-logo center">
+          <li><a class="white-text navi-butons button-1">Home</a></li>
+          <li><a class="white-text navi-butons button-2">About</a></li>
+          <li><a class="white-text navi-butons button-3">Portfolio</a></li>
+          <li><a class="white-text navi-butons button-4">Contact</a></li>
+          <li><a class="white-text navi-butons button-5">Technologies</a></li>
         </ul>
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       </div>
+
     </nav>
   </div>
-  <div class="col s12 m12 fade" style="margin-bottom: 25rem; margin-top: 15rem;">
-    <div class="section no-pad-bot">
-      <div class="container" id="fade-in">
-        <div class="row"></div>
-        <h1 class="header center orange-text text-accent-4">Jacob Dolph</h1>
-        <hr>
-        <div class="row center">
-          <h5 class="header col s12 teal-text text-lighten-4">Web Developer</h5>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="about-me" class="col s12 fade" style="margin-bottom: 20rem;">
-    <h1 class="center orange-text text-accent-4">About</h1>
-    <hr>
-    <div class="card-panel teal lighten-5 z-depth-1">
-      <div class="row valign-wrapper">
-        <div class="col s12 m2">
-          <img src="assets/images/jacob-1.jpg" alt="" class="circle responsive-img z-depth-3">
-
-        </div>
-        <div class="col s12 m10">
-          <span class="black-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eius, corporis similique iste repudiandae
-            aliquid veritatis dolore earum deleniti expedita. Inventore voluptas placeat similique est illo
-            necessitatibus fugiat tempore cumque!
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="section" style="padding-bottom:25rem;">
-      <h1 class="center orange-text text-accent-4 fade">Portfolio</h1>
-      <hr>
-      <div class="row">
-        <div class="col s12 m6 l6 fade" style="width: 20rem;">
-          <img src="assets/images/coffee-small.jpg" alt="my coffee finder image" class="responsive-img z-depth-3">
-          <a class="waves-effect waves-light btn teal lighten-5 black-text" style="width: 100%;position: relative;">My
-            Coffee
-            Finder</a>
-        </div>
-
-        <div class="col s12 m6 l6 fade" style="width: 20rem;">
-          <img src="assets/images/snow-small.JPG" alt="my coffee finder image" class="responsive-img z-depth-3">
-          <a class="waves-effect waves-light btn teal lighten-5 black-text"
-            style="width: 100%;position: relative;">Weather
-            Dashboard</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  <footer class="page-footer orange accent-4">
-    <div class="container">
-      <div class="row">
-        <div class="col l8 s12">
-          <h5 class="white-text">Connect</h5>
-          <div class="col l9 s12" style="font-size: 3rem;">
-            <a class="white-text" href="#!"><i class="fab fa-github"> </i></a>
-            <a class="white-text" href="#!"><i class="fab fa-facebook"></i></a>
-            <a class="white-text" href="#!"><i class="fab fa-instagram"></i></a>
-            <a class="white-text" href="#!"><i class="fab fa-linkedin"></i></a>
-            <a class="white-text" href="#!"><i class="fab fa-twitter-square"></i></a>
+  <div id="home" class="container">
+    <div class="col s12 m12 l12 fade first-section">
+      <div class="section no-pad-bot">
+        <div class="container center" id="fade-in">
+          <img src="assets/images/jacob-1.jpg" alt="" class="circle responsive-img z-depth-3" id="profile-pic">
+          <div class=" row"></div>
+          <h1 class="header center white-text text-accent-4">Jacob <span class="orange-text text-accent-4"> Dolph</span>
+          </h1>
+          <div class="row center">
+            <hr>
+            <h5 class="header col s12 m12 l12 teal-text text-lighten-4">Web Developer</h5>
           </div>
         </div>
       </div>
     </div>
-    <div class="footer-copyright">
+  </div>
+  <div class="container">
+    <div id="about-me" class="col s12 fade" style="margin-bottom: 10rem;">
+      <h1 class="center white-text text-accent-4">About</h1>
+      <hr>
+      <br>
+      <div class="row valign-wrapper">
+        <div class="col s12 m12 white-text center">
+          <h3 class="flow-text"> Hello, I am a software developer profficient in JavaScript and passionate about
+            learning
+            programming
+            languages
+            needed to
+            create user friendly web applications.
+            <br>
+            Currently in a Full Stack coding bootcamp learning the full life cycle of an application.</h3>
+
+          <br>
+
+
+        </div>
+      </div>
 
     </div>
+  </div>
+  <div class="container center">
+    <div id="portfolio" class="section" style="padding-bottom:10rem;">
+      <h1 class="center white-text text-accent-4 fade">Portfolio</h1>
+      <div class="row">
+        <hr>
+        <div class="col s12 m6 l6 fade portfolio-box" style="margin-bottom: 2rem;">
+          <i class="fas fa-coffee white" style="font-size: 20rem;"></i>
+          <a class="waves-effect waves-light btn teal lighten-5 black-text"
+            href="https://jordan-hanson.github.io/GroupProject" style="width: 100%;position: relative;">My
+            Coffee
+            Finder</a>
+        </div>
+
+        <div class="col s12 m6 l6 fade portfolio-box" style="margin-bottom: 2rem;">
+          <img src="assets/images/snow-small.JPG" alt="my coffee finder image"
+            class="responsive-img z-depth-3 portfolio-img">
+          <a class="waves-effect waves-light btn teal lighten-5 black-text"
+            href="https://jacobdolph.github.io/06-weather-dashboard-homework/" style="width: 100%;position: relative;">
+            Weather Dashboard
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div id="contact" class="col s12 m8">
+      <div class="card-panel blue darken-3 white-text fade">
+        <h2>Contact</h2>
+        <ul>
+          <h6>Name: Jacob Dolph</h6>
+
+          <h6>Email: jacob.dolph702@gmail.com</h6>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="tech" class="technologies container fade">
+    <h1 class="center white-text">Technologies</h1>
+    <div class="row">
+
+      <div class="tech center" style="font-size: 100px">
+        <hr width="80%">
+        <div class="icons col s6 m3 ">
+          <i class="fab fa-html5 red-text text-lighten-3"></i><br>
+          <p style="font-size: 2rem; color: white;">HTML5</p>
+        </div>
+        <div class="icons col s6 m3">
+          <i class="fab fa-css3-alt blue-text text-lighten-3"></i>
+          <p style="font-size: 2rem; color: white;">CSS</p>
+        </div>
+        <div class="icons col s6 m3">
+          <i class="fab fa-js yellow-text text-lighten-3"></i>
+          <p style="font-size: 2rem; color: white;">JavaScript</p>
+        </div>
+        <div class="icons col s6 m3">
+          <i class="fab fa-node-js green-text text-lighten-3"></i>
+          <p style="font-size: 2rem;color: white;">Node</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="tech center" style="font-size: 2rem; color:white;">
+      </div>
+    </div>
+  </div>
+
+  <div class="orange accent-4" style="height: 13rem; padding-bottom: 5rem;">
+    <div class="row">
+      <div class="col l12 s12" style="font-size: 3rem;">
+        <h4 class="white-text">Connect</h4>
+        <a class="white-text" href="https://github.com/jacobdolph" target="_blank"><i class="fab fa-github"></i></a>
+        <a class="white-text" href="https://www.facebook.com/jacob.dolph" target="_blank"><i
+            class="fab fa-facebook"></i></a>
+        <a class="white-text" href="https://www.instagram.com/jacob.dolph/" target="_blank"><i
+            class="fab fa-instagram"></i></a>
+        <a class="white-text" href="https://linkedin.com/in/jacob-dolph-508a82bb" target="_blank"><i
+            class="fab fa-linkedin"></i></a>
+        <a class="white-text" href="https://twitter.com/JacobDolph" target="_blank"><i
+            class="fab fa-twitter-square"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="fixed-footer orange accent-4 hide-on-large-only"
+    style="padding-top: 1rem; padding-bottom: 1rem; z-index: 3;">
+    <a class="waves-effect waves-light btn-small grey button-1">Home</a>
+    <a class="waves-effect waves-light btn-small grey button-2">About</a>
+    <a class="waves-effect waves-light btn-small grey button-3">Portfolio</a>
+    <a class="waves-effect waves-light btn-small grey button-4">Contact</a>
+    <a class="waves-effect waves-light btn-small grey button-5">Tech</a>
     </div>
   </footer>
 
