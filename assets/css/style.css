@@ -11,6 +11,13 @@ body{
    background-attachment: fixed;
    
 }
+#profile-pic{
+  width: 20rem;
+}
+#connect-bar{
+  height: 9.5rem;
+  padding-bottom: 0rem;
+}
 li{
     display: inline;
     padding: 0 2rem;
@@ -19,19 +26,18 @@ li{
 #contact{
   margin-bottom: 10rem;
 }
-/* .nav-section{
-padding: 0rem 25%;
-} */
+
 .navi-butons{
     font-size: 20px;
     font-weight: 500;
+    padding: 0rem .5rem;
     
 }
 .technologies{
     margin-bottom: 7rem;
 }
 .first-section{
-    margin-bottom: 10rem; margin-top: 15rem;
+    margin-bottom: 10rem; margin-top: 5rem;
 }
 .fixed-footer{
     position: fixed;
@@ -86,6 +92,10 @@ p {
         margin-right: 10rem;
     }
 @media only screen and (max-width : 992px) {
+  #connect-bar{
+    height: 13rem;
+    padding-bottom: 5rem;
+  }
     hr{
         width: 90%;
     }
@@ -109,6 +119,10 @@ p {
 }
 
 @media only screen and (max-width : 600px) {
+  #connect-bar{
+    height: 13rem;
+    padding-bottom: 5rem;
+  }
   #index-banner .section {
     top: 0;
   }
@@ -117,8 +131,16 @@ p {
   }
 }
 @media only screen and (max-width : 500px){
+ 
+  #connect-bar{
+    height: 13rem;
+    padding-bottom: 5rem;
+  }
     .first-section{
-        margin-bottom: 10rem; margin-top: 10rem;
+        margin-bottom: 10rem; margin-top: 5rem;
+      }
+      .bot {
+        padding: 0rem .25rem;
       }
 }
 .icon-block {
