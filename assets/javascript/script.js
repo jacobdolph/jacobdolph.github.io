@@ -33,7 +33,7 @@ $(".button-2").click(function () {
 })
 $(".button-3").click(function () {
     document.getElementById('portfolio').scrollIntoView({
-        block: "center",
+        block: "start",
         behavior: "smooth"
     })
 })
