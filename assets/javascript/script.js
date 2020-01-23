@@ -38,13 +38,13 @@ $(".button-3").click(function () {
     })
 })
 $(".button-4").click(function () {
-    document.getElementById('contact').scrollIntoView({
+    document.getElementById('tech').scrollIntoView({
         block: "center",
         behavior: "smooth"
     })
 })
 $(".button-5").click(function () {
-    document.getElementById('tech').scrollIntoView({
+    document.getElementById('contact').scrollIntoView({
         block: "center",
         behavior: "smooth"
     })
