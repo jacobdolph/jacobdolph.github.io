@@ -11,48 +11,63 @@
   <script src="https://kit.fontawesome.com/e6646741c0.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-  <div class="navbar-fixed orange accent-4 hide-on-med-and-down">
-    <nav class=" orange accent-4 nav-section">
+<body class="grey lighten-5">
+  <div class="navbar-fixed teal accent-4 hide-on-med-and-down" style="opacity: .8;">
+    <nav class=" teal accent-4 nav-section">
       <div class="col m12 l12">
         <ul class=" hide-on-med-and-down brand-logo center">
           <li><a class="white-text navi-butons button-1">Home</a></li>
+          <li><a class="white-text navi-butons button-5">Contact</a></li>
           <li><a class="white-text navi-butons button-2">About</a></li>
           <li><a class="white-text navi-butons button-3">Portfolio</a></li>
           <li><a class="white-text navi-butons button-4">Tech</a></li>
-          <li><a class="white-text navi-butons button-5">Contact</a></li>
         </ul>
       </div>
     </nav>
   </div>
 
 
-  <div id="home" class="container">
+  <div id="home" class="container" style="width:100%">
     <div class="col s12 m12 l12 first-section">
       <div class="section no-pad-bot">
         <div class="container center" id="fade-in">
           <img src="assets/images/jacob-2.JPG" alt="picture of me" class="circle responsive-img z-depth-3"
             id="profile-pic">
           <div class=" row"></div>
-          <h1 class="header center white-text text-accent-4">Jacob Dolph
+          <h1 class="header center" style="color: #555555;">Jacob Dolph
           </h1>
           <div class="row center">
             <hr>
-            <h5 class="header col s12 m12 l12 teal-text text-lighten-5">Web Developer</h5>
+            <h5 class="header col s12 m12 l12" style="color: #555555;">Web Developer</h5>
           </div>
         </div>
       </div>
     </div>
   </div>
-
-
-  <div class="container">
-    <div id="about-me" class="col s12 fade" style="margin-bottom: 10rem;">
-      <h1 class="center white-text text-accent-4">About</h1>
+  <div class="container" style="width:100%">
+    <div id="contact" class="col s12 fade" style="margin-bottom: 10rem;">
+      <h1 class="center" style="color: #555555;">Contact</h1>
       <hr>
       <br>
       <div class="row valign-wrapper">
-        <div class="col s12 m12 white-text center">
+        <div class="col s12 m12 center" style="color: #555555;">
+          <h3 class="flow-text" style="color: #555555;"> Resume: <a href="assets/images/JacobDolphResume2020.pdf"
+              target="_blank" download="Resume"><i class="fas fa-file-pdf"
+                style="font-size: 50px; color:#555555;"></i></a></h3>
+          <h3 class="flow-text" style="color: #555555;"> Email: jacob.dolph702@gmail.com</h3>
+          <h3 class="flow-text" style="color: #555555;">Phone: (435) 714-0259</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" style="width:100%">
+    <div id="about-me" class="col s12 fade" style="margin-bottom: 10rem; color: #555555;">
+      <h1 class="center" style="color: #555555;">About</h1>
+      <hr>
+      <br>
+      <div class="row valign-wrapper">
+        <div class="col s12 m12  center" style="color: #555555;">
           <h3 class="flow-text"> Hello, I am a software developer profficient in JavaScript and passionate about
             learning
             programming
@@ -67,126 +82,128 @@
   </div>
 
 
-  <div class="container center">
+  <div class="container center" style="width:100%">
     <div id="portfolio" class="section" style="padding-bottom:6rem;">
-      <h1 class="center white-text text-accent-4 fade">Portfolio</h1>
+      <h1 class="center fade" style="color: #555555;">Portfolio</h1>
       <div class="row">
         <hr>
-        <div class="col s12 m6 l4 fade portfolio-box" style=" margin-top: 5rem; width: auto;">
-          <a class="waves-effect waves-light black-text" href="https://github.com/jacobdolph/cli-team-builder"
-            target="_blank" style="width: 250px;position: relative;"><img src="assets/images/Team-Builder.png"
-              alt="picture of the finished team builder application"
-              class="responsive-img z-depth-2 portfolio-img"><span
-              style="padding: 1rem; position: relative; bottom: 4rem; font-weight: 500; font-size: 20px; background-color: rgba(255,255,255,.5);">
-              Team Builder</span>
-          </a>
-          <a class="btn-floating btn-large waves-effect waves-light teal lighten-4 black-text"
-            href="https://github.com/jacobdolph/cli-team-builder" target="_blank">Repo</a>
+        <div class='col m3'>
+          <div class="fade card">
+            <a class="waves-effect waves-light black-text" href="https://github.com/jacobdolph/cli-team-builder"
+              target="_blank" style="position: relative;"><img src="assets/images/Team-Builder.png"
+                alt="picture of the finished team builder application" class="responsive-img z-depth-1 portfolio-img">
+            </a>
+            <p style="text-align: center; padding: .5rem; font-weight: 500; font-size: 20px;">
+              Team Builder</p>
+            <a class="waves-effect waves-light teal lighten-4 black-text portfolio-button"
+              href="https://github.com/jacobdolph/cli-team-builder" target="_blank">
+              <p>Repo</p>
+            </a>
+          </div>
+
         </div>
-        <div class="col s12 m6 l4 fade portfolio-box" style=" margin-top: 5rem; width: auto;">
-          <a class="waves-effect waves-light black-text" href="https://jordan-hanson.github.io/GroupProject"
-            target="_blank" style="width: 250px;position: relative;"><img src="assets/images/coffee-finder.png"
-              alt="picture of coffee" class="responsive-img z-depth-2 portfolio-img"><span
-              style="padding: 1rem; position: relative; bottom: 4rem; font-weight: 500; font-size: 20px; background-color: rgba(255,255,255,.5);">
+        <div class='col m3'>
+          <div class=" fade card">
+            <a class="waves-effect waves-light black-text" href="https://jordan-hanson.github.io/GroupProject"
+              target="_blank" style="position: relative;"><img src="assets/images/coffee-finder.png"
+                alt="picture of coffee" class="responsive-img z-depth-1 portfolio-img">
+            </a>
+            <p
+              style="text-align: center;padding: .5rem; font-weight: 500; font-size: 20px; background-color: rgba(255,255,255,.5);">
               My
               Coffee
-              Finder</span>
-          </a>
-          <a class="btn-floating btn-large waves-effect waves-light teal lighten-4 black-text"
-            href="https://github.com/jordan-hanson/GroupProject" target="_blank">Repo</a>
+              Finder</p>
+            <a class="waves-effect waves-light teal lighten-4 black-text portfolio-button"
+              href=" https://github.com/jordan-hanson/GroupProject" target="_blank">
+              <p>Repo</p>
+            </a>
+          </div>
+        </div>
+        <div class='col m3'>
+          <div class="fade card">
+            <a class="waves-effect waves-light black-text"
+              href="https://jacobdolph.github.io/05-daily-planner-homework/" target="_blank"
+              style="position: relative;"><img src="assets/images/daily-planner.png" alt="picture of coffee"
+                class="responsive-img z-depth-1 portfolio-img">
+            </a>
+            <p
+              style="text-align: center;padding: .5rem; font-weight: 500; font-size: 20px; background-color: rgba(255,255,255,.5);">
+              Daily Planner</p>
+            <a class="waves-effect waves-light teal lighten-4 black-text portfolio-button"
+              href="https://github.com/jacobdolph/05-daily-planner-homework" target="_blank">
+              <p>Repo</p>
+            </a>
+          </div>
+        </div>
+        <div class='col m3'>
+          <div class="fade card">
+            <a class="waves-effect waves-light black-text"
+              href="https://jacobdolph.github.io/06-weather-dashboard-homework" target="_blank"
+              style="position: relative;"><img src="assets/images/weather-dashboard.png" alt="picture of coffee"
+                class="responsive-img z-depth-1 portfolio-img">
+            </a>
+            <p
+              style="text-align: center;padding: .5rem; font-weight: 500; font-size: 20px; background-color: rgba(255,255,255,.5);">
+              Weather Dashboard</p>
+            <a class="waves-effect waves-light teal lighten-4 black-text portfolio-button"
+              href="https://github.com/jacobdolph/06-weather-dashboard-homework" target="_blank">
+              <p>Repo</p>
+            </a>
+          </div>
         </div>
       </div>
 
-      <div class="row">
-        <div class="col s12 m6 l4 fade portfolio-box" style="margin-bottom: 2rem; margin-top: 5rem; width: auto;">
-          <a class="waves-effect waves-light black-text" href="https://jacobdolph.github.io/05-daily-planner-homework/"
-            target="_blank" style="width: 250px;position: relative;"><img src="assets/images/daily-planner.png"
-              alt="my coffee finder image" class="responsive-img z-depth-2 portfolio-img"><span
-              style="padding: 1rem; position: relative; bottom: 4rem; font-weight: 500; font-size: 20px; background-color: rgba(255,255,255,.5);">
-              Daily Planner
-            </span>
-          </a>
-          <a class="btn-floating btn-large waves-effect waves-light teal lighten-4 black-text"
-            href="https://github.com/jacobdolph/05-daily-planner-homework" target="_blank">Repo</a>
-        </div>
-        <div class="col s12 m6 l4 fade portfolio-box" style="margin-bottom: 2rem; margin-top: 5rem; width: auto;">
-          <a class="waves-effect waves-light black-text" target="_blank"
-            href="https://jacobdolph.github.io/06-weather-dashboard-homework/"
-            style="width: 250px;position: relative;"><img src="assets/images/weather-dashboard.png"
-              alt="my coffee finder image" class="responsive-img z-depth-2 portfolio-img"><span
-              style="padding: 1rem; position: relative; bottom: 4rem; font-weight: 500; font-size: 20px; background-color: rgba(255,255,255,.5);">
-              Weather Dashboard
-            </span>
-          </a>
-          <a class="btn-floating btn-large waves-effect waves-light teal lighten-4 black-text"
-            href="https://github.com/jacobdolph/06-weather-dashboard-homework" target="_blank">Repo</a>
-        </div>
-      </div>
     </div>
   </div>
 
   <div id="tech" class="technologies container">
-    <h1 class="center white-text fade">Tech</h1>
+    <h1 class="center fade" style="color: #555555;">Tech</h1>
     <hr width="80%">
     <div class="row fade">
       <div class="tech center" style="font-size: 100px">
         <div class="icons col s6 m3 ">
           <i class="fab fa-html5 red-text text-lighten-3"></i><br>
-          <p style="font-size: 2rem; color: white;">HTML5</p>
+          <p style="font-size: 2rem; color: #555555;">HTML5</p>
         </div>
         <div class="icons col s6 m3">
           <i class="fab fa-css3-alt blue-text text-lighten-3"></i>
-          <p style="font-size: 2rem; color: white;">CSS</p>
+          <p style="font-size: 2rem; color: #555555;">CSS</p>
         </div>
         <div class="icons col s6 m3">
           <i class="fab fa-js yellow-text text-lighten-3"></i>
-          <p style="font-size: 2rem; color: white;">JavaScript</p>
+          <p style="font-size: 2rem; color: #555555;">JavaScript</p>
         </div>
         <div class="icons col s6 m3">
           <i class="fab fa-node-js green-text text-lighten-3"></i>
-          <p style="font-size: 2rem;color: white;">Node</p>
+          <p style="font-size: 2rem;color: #555555;">Node</p>
         </div>
       </div>
     </div>
   </div>
-  <div class="container">
-    <div id="contact" class="col s12 fade" style="margin-bottom: 10rem;">
-      <h1 class="center white-text text-accent-4">Contact</h1>
-      <hr>
-      <br>
-      <div class="row valign-wrapper">
-        <div class="col s12 m12 white-text center">
-          <h3 class="flow-text"> Resume: <a href="assets/images/JacobDolphResume2020.pdf" target="_blank"
-              download="Resume"><i class="fas fa-file-pdf" style="font-size: 50px; color: white;"></i></a></h3>
-          <h3 class="flow-text"> Email: jacob.dolph702@gmail.com</h3>
-          <h3 class="flow-text">Phone: (435) 714-0259</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div id="connect-bar" class="orange accent-4 center">
+  <div id="connect-bar" class=" grey lighten-2 center">
     <div class="row">
       <div class="col l12 s12" style="font-size: 2rem;">
-        <h4 class="white-text">Connect</h4>
-        <a class="white-text" href="https://github.com/jacobdolph" target="_blank"><i class="fab fa-github"></i></a>
-        <a class="white-text" href="https://www.facebook.com/jacob.dolph" target="_blank"><i
+        <h4 style="color: #555555;">Connect</h4>
+        <a style="color: #555555;" href="https://github.com/jacobdolph" target="_blank"><i
+            class="fab fa-github"></i></a>
+        <a style="color: #555555;" href="https://www.facebook.com/jacob.dolph" target="_blank"><i
             class="fab fa-facebook"></i></a>
-        <a class="white-text" href="https://www.instagram.com/jacob.dolph/" target="_blank"><i
+        <a style="color: #555555;" href="https://www.instagram.com/jacob.dolph/" target="_blank"><i
             class="fab fa-instagram"></i></a>
-        <a class="white-text" href="https://linkedin.com/in/jacob-dolph-508a82bb" target="_blank"><i
+        <a style="color: #555555;" href="https://linkedin.com/in/jacob-dolph-508a82bb" target="_blank"><i
             class="fab fa-linkedin"></i></a>
-        <a class="white-text" href="https://twitter.com/JacobDolph" target="_blank"><i
+        <a style="color: #555555;" href="https://twitter.com/JacobDolph" target="_blank"><i
             class="fab fa-twitter-square"></i></a>
       </div>
     </div>
   </div>
-  <footer class="fixed-footer orange accent-4 hide-on-large-only"
+  <footer class="fixed-footer teal accent-4 hide-on-large-only"
     style="padding-top: 1rem; padding-bottom: 1rem; z-index: 3;">
-    <a class="waves-effect waves-light btn-small grey button-1 bot">Home</a>
-    <a class="waves-effect waves-light btn-small grey button-2 bot">About</a>
-    <a class="waves-effect waves-light btn-small grey button-3 bot">Portfolio</a>
-    <a class="waves-effect waves-light btn-small grey button-4 bot">Tech</a>
-    <a class="waves-effect waves-light btn-small grey button-5 bot">Contact</a>
+    <a class="waves-effect waves-light white-text button-1 bot" style="text-decoration: none;">Home</a>
+    <a class="waves-effect waves-light white-text button-5 bot">Contact</a>
+    <a class="waves-effect waves-light white-text button-2 bot">About</a>
+    <a class="waves-effect waves-light white-text button-3 bot">Portfolio</a>
+    <a class="waves-effect waves-light white-text button-4 bot">Tech</a>
   </footer>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="assets/javascript/init.js"></script>

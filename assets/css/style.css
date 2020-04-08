@@ -7,7 +7,7 @@
  */
 body{
    /* background-image: url(../images/340452.png); */
-  background-color: dimgray;
+   
    background-attachment: fixed;
    
 }
@@ -25,6 +25,14 @@ li{
 }
 #contact{
   margin-bottom: 10rem;
+}
+
+.portfolio-button{
+  width: 250px;
+  padding: 0.5rem; 
+  font-weight: 500; 
+  font-size: 20px; 
+  background-color: rgba(255,255,255,.5);
 }
 
 .navi-butons{
